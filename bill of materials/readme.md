@@ -11,3 +11,5 @@
 | 7 | Sensor | 8 kanaals TCRT5000 IR Foto-elektrische Schakelaar | Nieuw | 1.2EUR | 2 | 2.4EUR |
 | 8 | Dupont kabels | // | Nieuw | 6EUR | 1 | 6EUR |
 | 9 | Batterij | LiitoKala King4000 18650 4000mAh Battery - 2pcs | Nieuw | 9EUR | 1 | 9EUR |
+| 10 | Batterijhouder | 2x 3.7V | Nieuw | 2.69EUR | 1 | 2.69EUR |
+| 11 | Schakelaar | Tuimelschakelaar | Nieuw | 4.53EUR | 1 |4.53EUR |
