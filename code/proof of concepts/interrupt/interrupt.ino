@@ -1,4 +1,4 @@
-const int buttonPin = 8;           
+const int buttonPin = 4;           
 const int statusLed = LED_BUILTIN; 
 
 bool isRunning = false;            
