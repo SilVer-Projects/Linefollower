@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
-// HC-05: TXD -> D2, RXD <- D3 via spanningsdeler
+
 SoftwareSerial BT(2, 3);
 
 float Kp = 1.0;
@@ -54,7 +54,7 @@ void handleBluetooth() {
 }
 
 void processCommand(char* cmd) {
-  // Commando's hoofdletter-onafhankelijk maken
+
   for (char* p = cmd; *p; p++) {
     *p = toupper((unsigned char)*p);
   }
@@ -82,7 +82,7 @@ void processCommand(char* cmd) {
     return;
   }
 
-  // Andere commando's hebben het formaat NAAM=WAARDE
+
   char* eq = strchr(cmd, '=');
 
   if (eq == NULL) {
