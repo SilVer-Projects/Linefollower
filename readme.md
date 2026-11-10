@@ -7,19 +7,19 @@ lege repository die je als template kan gebruiken om een eigen repository te sta
   
 ## specifications
 
-microcontroller:
+microcontroller: Arduino Nano
 
-motors: 
+motors: DC motor 300tpm, 6V
 
-h-bridge:
+h-bridge: TB6612 DRV8833 DC Motor Driver Board Module Dual Motor Driver 1A
 
-sensors:
+sensors: 	8 kanaals TCRT5000 IR Foto-elektrische Schakelaar
 
-batteries:
+batteries: 	LiitoKala King4000 18650 4000mAh Battery - 2pcs
 
-wireless communication:
+wireless communication: HC06 RF Draadloos Voor Bluetooth Transceiver Slave Module RS232/TTL
 
-distance sensor - motors:
+distance sensor - motors: 80mm
 
 weight:
 
