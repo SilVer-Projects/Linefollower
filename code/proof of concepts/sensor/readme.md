@@ -1,8 +1,10 @@
 # Sensoren proof of concept
 
 minimale hard- en software die aantoont dat minimaal 6 sensoren onafhankelijk van elkaar kunnen uitgelezen worden (geen calibratie, normalisatie of interpolatie). Hierbij moet een zo groot mogelijk bereik van de AD converter benut worden (indien van toepassing)
+
 ---
-### Functionaliteit van de 8-kanaals IR-sensor
+
+### Functionaliteit 
 
 Een 8-kanaals infraroodsensorarray wordt gebruikt om de positie van een lijn (bijvoorbeeld bij een linefollower) nauwkeurig te detecteren op basis van het verschil in reflectie tussen een zwarte lijn en een witte ondergrond. Door meerdere sensoren te combineren, weet de robot exact waar de lijn zich bevindt ten opzichte van het voertuig. De voedingspin (powerPin) zorgt ervoor dat de sensormodule centraal van stroom kan worden voorzien.
 ---
