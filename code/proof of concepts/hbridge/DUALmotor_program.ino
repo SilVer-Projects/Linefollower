@@ -1,5 +1,5 @@
 // Pin-definities voor de DRV8833
-const int in1 = 3;
+const int in1 = 10;
 const int in2 = 5;
 const int in3 = 6;
 const int in4 = 9;
