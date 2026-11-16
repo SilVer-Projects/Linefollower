@@ -1,18 +1,23 @@
 # Gebruiksaanwijzing
 
 ### opladen / vervangen batterijen
-De batterijen aangekocht uit de BOM zijn batterijen die oplaadbaar zijn en met grote capaciteit, je kan er lang mee doen voor ze in deze toepassing opgeladen moeten worden, wel aangeraden in het geval dat ze leeg zijn om oplader voor deze batterijen ook aan te kopen tenzij je deze al in huis hebt.
+De geselecteerde batterijen uit de Bill of Materials (BOM) zijn oplaadbaar en beschikken over een hoge capaciteit, wat zorgt voor een lange autonomie binnen deze toepassing. Om de batterijen na ontlading opnieuw te kunnen gebruiken, wordt aanbevolen om een compatibele batterijlader mee te bestellen, tenzij deze reeds beschikbaar is.
 
 ### draadloze communicatie
 #### verbinding maken
-Verbinden maken is mogelijk door de HC05, dit gebeurt via bluetooth en doe je best via je smartphone:
-1. Zorg dat de code met HC05 functies opgeladen is naar de arduino nano
-2. Sluit de HC05 correct aan op de arduino nano + spanningsdeler
-3. Bij het aanzetten van de schakeling zal een lampje beginnen knipperen op de HC05
-4. Download de app Serial Bluetooth Terminal op je smartphone
-5. Zet je bluetooth aan, zoek in devices HC05 en koppel er mee
-6. Het HC05 lampje begint nu aan een ander interval te knipper
-7. Je bent nu verbonden en kunt Commando's versturen en parameters ontvangen
+Firmware uploaden: Zorg ervoor dat de Arduino-code met Bluetooth-functionaliteit correct is gecompileerd en geüpload naar de Arduino Nano.
+
+Hardware aansluiten: Sluit de HC-05-module aan op de Arduino Nano. Gebruik hierbij een spanningsdeler op de RX-lijn van de module om het 5V-signaal van de Arduino veilig om te zetten naar 3,3V.
+
+Systeem inschakelen: Schakel de voeding van de schakeling in. De status-LED op de HC-05 zal nu snel knipperen om aan te geven dat de module klaar is om te koppelen.
+
+Applicatie installeren: Download en installeer de app Serial Bluetooth Terminal op uw smartphone.
+
+Bluetooth koppelen: Schakel Bluetooth in op uw smartphone, zoek naar beschikbare apparaten en maak verbinding met HC-05.
+
+Verbinding verifiëren: Open de geïnstalleerde terminal-app en selecteer de gekoppelde HC-05-module om de seriële verbinding te starten. Zodra de verbinding tot stand is gebracht, wijzigt het knipperpatroon van de status-LED op de module naar een trager interval.
+
+Communicatie starten: De verbinding is nu actief. U kunt via de terminal rechtstreeks commando's versturen om de robot aan te sturen en parameters op te vragen of te wijzigen.
 
 #### commando's
 debug [on/off]  
