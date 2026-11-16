@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <EEPROM.h>
 
-//toegevoegd (HC-05 Bluetooth teruggezet naar pin 2 en 3)
+//
 SoftwareSerial BT(2, 3); 
 
 const int in1 = 10; 
@@ -12,7 +12,7 @@ const int in2 = 5;
 const int in3 = 6;  
 const int in4 = 9;  
 
-//toegevoegd (knop teruggezet naar pin 4)
+//
 const int buttonPin = 4; 
 
 const int sensorPins[] = {A5, A4, A3, A2, A1, 7}; 
