@@ -4,7 +4,7 @@
 #include <ctype.h>
 
 
-SoftwareSerial BT(2, 3);
+SoftwareSerial BT(2, 4);
 
 float Kp = 1.0;
 float Ki = 0.0;
