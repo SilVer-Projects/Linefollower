@@ -2,7 +2,7 @@
 
 | volgnummer | naam | omschrijving | nieuw/recup | kostprijs/stuk | aantal | subtotaal |
 | :--- | :--- | :--- | :---: | :---: | :---: | :---: |
-| 1 | Bluetooth Transceiver | HC06 RF Draadloos Voor Bluetooth Transceiver Slave Module RS232/TTL | Nieuw | 3.05EUR | 1 | 3.05EUR |
+| 1 | Bluetooth Transceiver | HC05 RF Draadloos Voor Bluetooth Transceiver Slave Module RS232/TTL | Nieuw | 3.05EUR | 1 | 3.05EUR |
 | 2 | Rubberen Wiel | N20 D-Gat 43Mm Rubberen Wiel | Nieuw | 2.2EUR | 2 | 4.4EUR |
 | 3 | Microcontroller | Arduino CH340 USB-driver 16Mhz ATMEGA328P | Nieuw | 2.34EUR | 2 | 4.68EUR |
 | 4 | Driver | TB6612 DRV8833 DC Motor Driver Board Module Dual Motor Driver 1A | Nieuw | 1.3EUR | 2 | 2.6EUR |
